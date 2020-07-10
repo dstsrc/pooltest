@@ -1,2 +1,2 @@
 # pooltest
-go sync pool example
+go sync pool bad example
