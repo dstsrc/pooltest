@@ -71,7 +71,7 @@ func (p *PoolStorage) sc2() {
 func (p *PoolStorage) sc3() {
 	a := p.Get()
 	if a.Str == "old" {
-		log.Println("no zero value") // is not problem
+		log.Println("no zero value") // its ok
 	}
 
 	time.Sleep(time.Millisecond)
